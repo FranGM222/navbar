@@ -11,13 +11,26 @@ h1 {
 }
 
 .navbar ul {
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(234, 196, 252);
+}
+
+
+.navbar li {
+    float: left;
 }
 
 .navbar a {
-   
+   display: block;
+   color: antiquewhite;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
 }
 
 .navbar a:hover {
-    ;
+    background-color: rgb(185, 120, 177);
 }
